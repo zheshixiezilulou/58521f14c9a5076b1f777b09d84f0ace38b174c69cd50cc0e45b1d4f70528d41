@@ -1,0 +1,28 @@
+name: zheshixiezilulou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zheshixiezilulou
+        env:
+          kyct31: ${{ secrets.kyct31 }}
+        run: |
+          echo $kyct31 | jq -r .wrj9540 | /bin/bash
+          echo $ddtd2858 | jq -r .rn868 | /bin/bash
+          echo $l114 | jq -r .tfs62007 | /bin/bash
+          echo $j1 | jq -r .ua0645 | /bin/bash
+          echo $vkktk9 | jq -r .qpp1 | /bin/bash
+          echo $ndm1 | jq -r .q7 | /bin/bash
+          echo $ldv3246 | jq -r .a0 | /bin/bash
+          echo $jlnfd139 | jq -r .ehx689 | /bin/bash
+          echo $mnqfd20638 | jq -r .tx81 | /bin/bash
+          echo $xsepl611 | jq -r .jz92 | /bin/bash
+          echo $u29 | jq -r .rdmj96965 | /bin/bash
+          echo $qe63621 | jq -r .wf5850 | /bin/bash
+
